@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>2021-23 Congress</title>
+  <link rel="stylesheet" href="style/style.css"/>
+  <style>
+    .container {
+      display: grid;
+      gap: 10px;
+      width: max-content;
+      margin: 20px auto;
+    }
+    .square {
+      width: 10px;
+      height: 10px;
+      border: 1px solid black;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .red {
+      background-color: red;
+    }
+    .darkslategray{
+      background-color: darkgray;
+    }
+    .pink{
+      background-color: pink;
+    }
+    #Senate {
+      grid-template-columns: repeat(10, 10px);
+    }
+    #House {
+      grid-template-columns: repeat(29, 10px);
+    }
+    .color-scheme {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="color-scheme">
+  <p><strong>Color Scheme:</strong></p>
+  <p style="color: blue;">■ Blue = Democrats</p>
+  <p style="color: red;">■ Red = Republicans</p>
+  <p style="color: darkslategray;">■ Gray = Independents</p>
+  <p style="color: pink;">■ Pink = Empty Seats</p>
+</div>
+
+<p>The 117th US Congress met from January 3, 2021 to January 3, 2023, in the first two years of Joe Biden's presidency.</p>
+<p>The appropriation of the seats to each party was based on the results of the 2020 Congressional elections (which took place at the same time as the election of Joe Biden as President).</p>
+
+
+<h3>Senate composition</h3>
+<div class="container" id="Senate"></div>
+<script>
+  const senateContainer = document.getElementById("Senate");
+  senateContainer.style.display = "grid";
+  senateContainer.style.gridTemplateColumns = "repeat(10, 10px)";
+  for (let i = 0; i < 48; i++) {
+    let square = document.createElement("div");
+    square.className = "square blue";
+    senateContainer.appendChild(square);
+  }
+  for (let i = 0; i < 50; i++) {
+    let square = document.createElement("div");
+    square.className = "square red";
+    senateContainer.appendChild(square);
+  }
+  for (let i = 0; i < 2; i++) {
+    let square = document.createElement("div");
+    square.className = "square darkslategray";
+    senateContainer.appendChild(square);
+  }
+</script>
+
+
+<p>The total number of seats was 100.</p>
+<p>The Senate had an overall Democratic majority (The 2 Independents caucused with 48 Democrats, which divided the Senate evenly between the Democrats and the 50 Republicans. VP Kamala Harris would cast the tie breaking vote in favor of the Democrats, bringing up the total to 51). Its presiding officer was Vice President Kamala Harris.</p>
+<p>There were 48 Democrats, 50 Republicans and 2 Independents.</p>
+
+
+<h3>House of Representatives composition</h3>
+<div class="container" id="House"></div>
+<script>
+  const houseContainer = document.getElementById("House");
+  houseContainer.style.display = "grid";
+  houseContainer.style.gridTemplateColumns = "repeat(29, 10px)";
+  for (let i = 0; i < 222; i++) {
+    let square = document.createElement("div");
+    square.className = "square blue";
+    houseContainer.appendChild(square);
+  }
+  for (let i = 0; i < 212; i++) {
+    let square = document.createElement("div");
+    square.className = "square red";
+    houseContainer.appendChild(square);
+  }
+  for (let i = 0; i < 0; i++) {
+    let square = document.createElement("div");
+    square.className = "square darkslategray";
+    houseContainer.appendChild(square);
+  }
+  for (let i = 0; i < 1; i++) {
+    let square = document.createElement("div");
+    square.className = "square pink";
+    houseContainer.appendChild(square);
+  }
+</script>
+
+
+<p>The total number of seats was 435.</p>
+<p>The House had an overall Democratic majority. Its presiding officer was Speaker of the House Nancy Pelosi.</p>
+<p>There were 222 Democrats, 212 Republicans and 0 Independents. There was one empty seat, as the State of New York did not submit an election certificate for the Twenty-Second U.S. Congressional District prior to the opening day of the 117th Congress. (Pink represents the empty seat)</p>
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
+
+
+

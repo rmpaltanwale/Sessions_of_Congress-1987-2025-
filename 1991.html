@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>1991-93 Congress</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <style>
+        .container {
+            display: grid;
+            gap: 10px;
+            width: max-content;
+            margin: 20px auto;
+        }
+        .square {
+            width: 10px;
+            height: 10px;
+            border: 1px solid black;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .red {
+            background-color: red;
+        }
+        .darkslategray{
+            background-color: darkgray;
+        }
+        #Senate {
+            grid-template-columns: repeat(10, 10px);
+        }
+        #House {
+            grid-template-columns: repeat(29, 10px);
+        }
+        .color-scheme {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            border: 1px solid black;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="color-scheme">
+    <p><strong>Color Scheme:</strong></p>
+    <p style="color: blue;">■ Blue = Democrats</p>
+    <p style="color: red;">■ Red = Republicans</p>
+    <p style="color: darkslategray;">■ Gray = Independents</p>
+    <p style="color: pink;">■ Pink = Empty Seats</p>
+</div>
+
+<p>The 102nd US Congress met from January 3, 1991 to January 3, 1993, in the last two years of George HW Bush's presidency.</p>
+<p>The appropriation of the seats to each party was based on the results of the 1990 midterms (which took place during the middle of George HW Bush's term).</p>
+
+
+<h3>Senate composition</h3>
+<div class="container" id="Senate"></div>
+<script>
+    const senateContainer = document.getElementById("Senate");
+    senateContainer.style.display = "grid";
+    senateContainer.style.gridTemplateColumns = "repeat(10, 10px)";
+    for (let i = 0; i < 56; i++) {
+        let square = document.createElement("div");
+        square.className = "square blue";
+        senateContainer.appendChild(square);
+    }
+    for (let i = 0; i < 44; i++) {
+        let square = document.createElement("div");
+        square.className = "square red";
+        senateContainer.appendChild(square);
+    }
+    for (let i = 0; i < 0; i++) {
+        let square = document.createElement("div");
+        square.className = "square darkslategray";
+        senateContainer.appendChild(square);
+    }
+</script>
+
+
+<p>The total number of seats was 100.</p>
+<p>The Senate had an overall Democratic majority. Its presiding officer was Vice President Dan Quayle.</p>
+<p>There were 56 Democrats, 44 Republicans and 0 Independents.</p>
+
+
+<h3>House of Representatives composition</h3>
+<div class="container" id="House"></div>
+<script>
+    const houseContainer = document.getElementById("House");
+    houseContainer.style.display = "grid";
+    houseContainer.style.gridTemplateColumns = "repeat(29, 10px)";
+    for (let i = 0; i < 267; i++) {
+        let square = document.createElement("div");
+        square.className = "square blue";
+        houseContainer.appendChild(square);
+    }
+    for (let i = 0; i < 167; i++) {
+        let square = document.createElement("div");
+        square.className = "square red";
+        houseContainer.appendChild(square);
+    }
+    for (let i = 0; i < 1; i++) {
+        let square = document.createElement("div");
+        square.className = "square darkslategray";
+        houseContainer.appendChild(square);
+    }
+
+</script>
+
+
+<p>The total number of seats was 435.</p>
+<p>The House had an overall Democratic majority. Its presiding officer was Speaker of the House Tom Foley.</p>
+<p>There were 267  Democrats, 167 Republicans and 1 Independent.</p>
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
