@@ -1,5 +1,5 @@
 # Sessions_of_Congress-1987-2025-
-Introduction
+## Introduction
 
 For my Spring 2025 semester course, Web Design and Implementation (ICS 225), the final project required
 creating a 20-page HTML website with the help of CSS for styling and layout. I developed a 20-page HTML
