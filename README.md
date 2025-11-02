@@ -64,22 +64,22 @@ The website's design was created with the goal of maintaining clarity, consisten
 all pages while presenting political and historical information in a structured, engaging way. The styling
 relied entirely on custom CSS, emphasizing semantic structure over decorative design.
 
-· Color Scheme:
+- Color Scheme:
 The colors were deliberately chosen to reflect the bipartisan nature of the U.S. Congress - blue for
 Democrats, red for Republicans, and gray for Independents. A neutral white background ensured high
 contrast and readability.
-· Typography:
+- Typography:
 Standard web-safe fonts such as Arial and Georgia were used to maintain legibility. Headings were
 bolded and slightly enlarged to create a clear visual hierarchy between sections.
-· Layout and Alignment:
+- Layout and Alignment:
 Elements were centered or grid-aligned to provide balance and uniform spacing between text and
 graphics. CSS margin and padding properties were used to create consistent white space, allowing the
 content to breathe without overwhelming the reader.
-· Visual Consistency:
+- Visual Consistency:
 The color-coded square grids were designed using <div> elements styled with CSS classes, ensuring
 uniform dimensions and alignment across pages. The legend box was placed in the upper-right corner
 for consistent reference and ease of comparison.
-· Accessibility Considerations:
+- Accessibility Considerations:
 Proper use of semantic HTML tags and descriptive alt text for images ensured that the site would 
 remain navigable and understandable for all users.
 
