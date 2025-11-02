@@ -43,7 +43,7 @@ visual representation of congressional data. The layout emphasizes readability, 
 accessibility across all 20 pages.
 
 - Introductory Text: Each page begins with a short summary describing the specific U.S. Congressional
-session, including its term dates and relevant presidential administration.
+  session, including its term dates and relevant presidential administration.
 - Section Headings: Subheadings such as Senate Composition and House of Representatives Composition
   divide the content into clear segments.
 - Graphical Representation: Below each heading, a visual grid illustrates the partisan composition of each
