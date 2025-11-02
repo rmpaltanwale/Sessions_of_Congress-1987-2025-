@@ -24,3 +24,25 @@ Additionally, the project was required to feature clear organization, external a
 integration (such as images or embedded content), and a well-formatted reference page. The overall goal
 was to apply the principles of web accessibility, usability, and coherent visual design in a cohesive website
 experience.
+
+## Website structure
+
+The website is organized into 20 interconnected HTML pages, each focusing on a specific period, topic, or theme related to 
+the history of the U.S. Congress from 1987 to the present. The structure was designed to ensure intuitive navigation and 
+logical progression through the content.
+
+- Homepage: Introduces the topic, purpose, and historical scope of the website.
+
+- Timeline Pages: Present key legislative sessions and major political developments across multiple decades.
+
+- Leadership and Committees Pages: Highlight important congressional leaders, committee changes, and policy focuses.
+
+- Legislation Pages: Summarize significant bills, reforms, and acts passed during the covered period.
+
+- Media and Public Opinion Page: Explores how media coverage and public sentiment have evolved with Congress.
+
+- References Page: Lists credible academic, government, and media sources used in research.
+
+Each page is linked through a consistent navigation bar and footer section, maintaining uniformity and accessibility 
+throughout the site. The layout employs reusable CSS components for typography, color scheme, and spacing to ensure a 
+cohesive user experience.
