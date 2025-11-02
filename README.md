@@ -31,7 +31,8 @@ The website is organized into 20 interconnected HTML pages, each focusing on a s
 the history of the U.S. Congress from 1987 to the present. The structure was designed to ensure intuitive navigation and 
 logical progression through the content.
 
-- Homepage: Introduces the topic, purpose, and historical scope of the website.
+- Index: Gives the list of US Congressional sessions from 1987 till 2025, and the link to each webpage representing each
+  session
 
 - Timeline Pages: Present key legislative sessions and major political developments across multiple decades.
 
