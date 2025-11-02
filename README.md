@@ -35,3 +35,28 @@ logical progression through the content.
 Gives list of US Congressional sessions from 1987 till 2025, and the link to each webpage representing each session.
 
 ![IndexCongressSessions](./Screenshots/Index_Congress_Sessions.png)
+
+### Typical Page Layout
+
+Each webpage within the project follows a consistent structure designed to balance historical content with
+visual representation of congressional data. The layout emphasizes readability, organization, and
+accessibility across all 20 pages.
+
+- Introductory Text: Each page begins with a short summary describing the specific U.S. Congressional
+session, including its term dates and relevant presidential administration.
+- Section Headings: Subheadings such as Senate Composition and House of Representatives Composition
+  divide the content into clear segments.
+- Graphical Representation: Below each heading, a visual grid illustrates the partisan composition of each
+  chamber. Colored squares represent seats held by each party:
+  - Blue: Democrats
+  - Red: Republicans
+  - Gray: Independents
+  - (Pink was reserved for empty seats, when applicable)
+  - Legends and Labels: A color key appears in the upper-right corner for clarity and reference.
+  - Text Summaries: Each chamber's section includes numerical data and contextual explanation of party
+    control, leadership, and presiding officers.
+  - Consistent Styling: All elements use a shared CSS stylesheet that controls color scheme, alignment, and
+    typography, ensuring uniform presentation across sessions.
+
+This standardized format allowed users to compare congressional terms visually and textually, making it
+easier to observe shifts in party balance and political trends over time.
