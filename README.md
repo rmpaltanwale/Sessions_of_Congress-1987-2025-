@@ -37,7 +37,6 @@ Gives list of US Congressional sessions from 1987 till 2025, and the link to eac
 ![IndexCongressSessions](./Screenshots/Index_Congress_Sessions.png)
 
 ### Typical Page Layout
-
 Each webpage within the project follows a consistent structure designed to balance historical content with
 visual representation of congressional data. The layout emphasizes readability, organization, and
 accessibility across all 20 pages.
