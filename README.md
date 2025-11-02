@@ -60,28 +60,27 @@ This standardized format allowed users to compare congressional terms visually a
 easier to observe shifts in party balance and political trends over time.
 
 ### Design and Styling
-The website's design was created with the goal of maintaining clarity, consistency, and accessibility across
-all pages while presenting political and historical information in a structured, engaging way. The styling
-relied entirely on custom CSS, emphasizing semantic structure over decorative design.
+The website's design combines static structure (HTML) and dynamic visualization (CSS and JavaScript) to
+present congressional composition data in a clean and organized format. The styling emphasizes clarity.
+accuracy, and consistency across all 20 pages.
 
-- Color Scheme:
-The colors were deliberately chosen to reflect the bipartisan nature of the U.S. Congress - blue for
-Democrats, red for Republicans, and gray for Independents. A neutral white background ensured high
-contrast and readability.
-- Typography:
-Standard web-safe fonts such as Arial and Georgia were used to maintain legibility. Headings were
-bolded and slightly enlarged to create a clear visual hierarchy between sections.
-- Layout and Alignment:
-Elements were centered or grid-aligned to provide balance and uniform spacing between text and
-graphics. CSS margin and padding properties were used to create consistent white space, allowing the
-content to breathe without overwhelming the reader.
-- Visual Consistency:
-The color-coded square grids were designed using <div> elements styled with CSS classes, ensuring
-uniform dimensions and alignment across pages. The legend box was placed in the upper-right corner
-for consistent reference and ease of comparison.
-- Accessibility Considerations:
-Proper use of semantic HTML tags and descriptive alt text for images ensured that the site would 
-remain navigable and understandable for all users.
+- Layout and Structure:
+Each page uses a grid-based layout created with CSS Grid, ensuring that visual data (such as Senate and
+House seat compositions) aligns evenly in rows and columns. The <div> individual seats are contained within
+columns ) to define layout precision.
+- Typography and Readability:
+The text uses standard system fonts to maintain legibility across browsers. Hierarchical tags like <h3>
+and <p> create a clear separation between headings and explanatory content, improving readability
+and accessibility.
+- Dynamic Visualization:
+JavaScript was used to generate the grid of colored squares dynamically. Loops populate the containers
+with <div> elements based on the number of seats per party, ensuring accurate representation for each
+congressional term. This approach also reduced repetitive manual coding and maintained data accuracy.
+- Accessibility and Consistency:
+CSS was kept simple and semantic HTML was prioritized, ensuring all content remained accessible and
+structured logically. The absolute positioning of the color key provided consistent placement across all
+pages, while shared CSS files maintained visual uniformity.
 
-The minimalist approach to styling kept the focus on historical accuracy and data visualization, resulting in a
-website that is both educational and professionally structured.
+Overall, the minimalist visual approach allows users to focus on the data and historical narrative rather than
+decorative elements. The combination of HTML, CSS, and JavaScript demonstrates practical application of
+front-end principles, emphasizing precision, usability, and information clarity.
