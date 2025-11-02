@@ -69,8 +69,8 @@ Each page uses a grid-based layout created with CSS Grid, ensuring that visual d
 House seat compositions) aligns evenly in rows and columns. The <div> individual seats are contained within
 columns ) to define layout precision.
 - Typography and Readability:
-The text uses standard system fonts to maintain legibility across browsers. Hierarchical tags like <h3>
-and <p> create a clear separation between headings and explanatory content, improving readability
+The text uses standard system fonts to maintain legibility across browsers. Hierarchical tags like "h3"
+and "p" create a clear separation between headings and explanatory content, improving readability
 and accessibility.
 - Dynamic Visualization:
 JavaScript was used to generate the grid of colored squares dynamically. Loops populate the containers
