@@ -26,12 +26,11 @@ was to apply the principles of web accessibility, usability, and coherent visual
 experience.
 
 ## Website structure
-
 The website is organized into 20 interconnected HTML pages, each focusing on a specific period, topic, or theme related to 
 the history of the U.S. Congress from 1987 to the present. The structure was designed to ensure intuitive navigation and 
 logical progression through the content.
 
-### Index: 
+### Index 
 Gives list of US Congressional sessions from 1987 till 2025, and the link to each webpage representing each session.
 
 ![IndexCongressSessions](./Screenshots/Index_Congress_Sessions.png)
@@ -59,3 +58,5 @@ accessibility across all 20 pages.
 
 This standardized format allowed users to compare congressional terms visually and textually, making it
 easier to observe shifts in party balance and political trends over time.
+
+### Design and Styling
