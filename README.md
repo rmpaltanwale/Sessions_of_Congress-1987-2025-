@@ -87,7 +87,7 @@ front-end principles, emphasizing precision, usability, and information clarity.
 
 ### The Congressional Sessions from 1987 to 2025
 - 100th Congress (1987-1989)
-- ![](./Screenshots/100th_US_Congress_(1987-89)png)
+- ![101](./Screenshots/100th_US_Congress_(1987-89)png)
 - 101st Congress (1989-1991)
 - 102nd Congress (1991-1993)
 - 103rd Congress (1993-1995)
