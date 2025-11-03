@@ -86,18 +86,23 @@ decorative elements. The combination of HTML, CSS, and JavaScript demonstrates p
 front-end principles, emphasizing precision, usability, and information clarity.
 
 ### The Congressional Sessions from 1987 to 2025
-107th US Congress
-
-108th US Congress
-
-109th US Congress
-
-110th US Congress
-
-111th US Congress
-
-112th US Congress
-
-113th US Congress
-
-114th US Congress
+1. 100th Congress (1987-1989)
+2. 101st Congress (1989-1991)
+3. 102nd Congress (1991-1993)
+4. 103rd Congress (1993-1995)
+5. 104th Congress (1995-1997)
+6. 105th Congress (1997-1999)
+7. 106th Congress (1999-2001)
+8. 107th Congress (2001-2003)
+9. 108th Congress (2003-2005)
+10. 109th Congress (2005-2007)
+11. 110th Congress (2007-2009)
+12. 111th Congress (2009-2011)
+13. 112th Congress (2011-2013)
+14. 113th Congress (2013-2015)
+15. 114th Congress (2015-2017)
+16. 115th Congress (2017-2019)
+17. 116th Congress (2019-2021)
+18. 117th Congress (2021-2023)
+19. 118th Congress (2023-2025)
+20. 119th Congress (2025-2027)
