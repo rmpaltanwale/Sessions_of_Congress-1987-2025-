@@ -85,3 +85,19 @@ Overall, the minimalist visual approach allows users to focus on the data and hi
 decorative elements. The combination of HTML, CSS, and JavaScript demonstrates practical application of
 front-end principles, emphasizing precision, usability, and information clarity.
 
+### The Congressional Sessions from 1987 to 2025
+107th US Congress
+
+108th US Congress
+
+109th US Congress
+
+110th US Congress
+
+111th US Congress
+
+112th US Congress
+
+113th US Congress
+
+114th US Congress
