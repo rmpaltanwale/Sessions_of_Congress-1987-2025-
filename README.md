@@ -1,4 +1,4 @@
-# Sessions_of_Congress-1987-2025
+# Sessions of Congress (1987-2025)
 ## Introduction
 
 For my Spring 2025 semester course, Web Design and Implementation (ICS 225), the final project required
