@@ -66,7 +66,7 @@ accuracy, and consistency across all 20 pages.
 
 - Layout and Structure:
 Each page uses a grid-based layout created with CSS Grid, ensuring that visual data (such as Senate and
-House seat compositions) aligns evenly in rows and columns. The <div> individual seats are contained within
+House seat compositions) aligns evenly in rows and columns. The "div" individual seats are contained within
 columns ) to define layout precision.
 - Typography and Readability:
 The text uses standard system fonts to maintain legibility across browsers. Hierarchical tags like "h3"
@@ -74,7 +74,7 @@ and "p" create a clear separation between headings and explanatory content, impr
 and accessibility.
 - Dynamic Visualization:
 JavaScript was used to generate the grid of colored squares dynamically. Loops populate the containers
-with <div> elements based on the number of seats per party, ensuring accurate representation for each
+with "div" elements based on the number of seats per party, ensuring accurate representation for each
 congressional term. This approach also reduced repetitive manual coding and maintained data accuracy.
 - Accessibility and Consistency:
 CSS was kept simple and semantic HTML was prioritized, ensuring all content remained accessible and
@@ -84,3 +84,4 @@ pages, while shared CSS files maintained visual uniformity.
 Overall, the minimalist visual approach allows users to focus on the data and historical narrative rather than
 decorative elements. The combination of HTML, CSS, and JavaScript demonstrates practical application of
 front-end principles, emphasizing precision, usability, and information clarity.
+
