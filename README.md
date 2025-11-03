@@ -95,6 +95,7 @@ front-end principles, emphasizing precision, usability, and information clarity.
 - 103rd Congress (1993-1995)
   ![](./Screenshots/103rd_US_Congress_(1993-95).png)
 - 104th Congress (1995-1997)
+  ![](./Screenshots/104th_US_Congress_(1995-97).png)
 - 105th Congress (1997-1999)
 - 106th Congress (1999-2001)
 - 107th Congress (2001-2003)
