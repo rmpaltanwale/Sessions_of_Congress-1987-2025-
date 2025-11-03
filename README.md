@@ -89,6 +89,7 @@ front-end principles, emphasizing precision, usability, and information clarity.
 - 100th Congress (1987-1989)
   ![](./Screenshots/100th_US_Congress_(1987-89).png)
 - 101st Congress (1989-1991)
+  ![](./Screenshots/101st_US_Congress_(1989-91).png)
 - 102nd Congress (1991-1993)
 - 103rd Congress (1993-1995)
 - 104th Congress (1995-1997)
